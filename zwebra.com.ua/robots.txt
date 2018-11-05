@@ -1,0 +1,10 @@
+User-agent: *
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.png
+Allow: *.gif
+Disallow: /manager/
+
+Host: https://zwebra.com.ua
+Sitemap: https://zwebra.com.ua/sitemap.xml

@@ -1,0 +1,61 @@
+window.initMap = function() {
+	var kremenchuk = {
+		info:
+			'<strong>Kremenchuk Office in Ukraine</strong><br>\
+		Proletarska str., 24/37,<br>Kremenchug, Poltava region,<br>Ukraine, 39600<br>\
+		<a href="https://goo.gl/maps/5BrfnDxhHkF2">Get Directions</a>',
+		lat: 49.070092,
+		long: 33.411013
+	};
+
+	var canada = {
+		info:
+			'<strong>Canada Office</strong><br>\r\
+		133 Prince William Street,<br>Saint John, New Brunswick,<br>Canada, E2L 2B5<br>\
+		<a href="https://goo.gl/maps/AtkT9x7sLmG2">Get Directions</a>',
+		lat: 45.2706301,
+		long: -66.061538
+	};
+
+	var kharkiv = {
+		info:
+			'<strong>Kharkiv Office in Ukraine</strong><br>\
+		Poltavskyi Shliakh St, 9,<br>Kharkiv, Kharkiv Oblast,<br>Ukraine, 61000<br>\
+		<a href="https://goo.gl/maps/m3uKFN2bc8v">Get Directions</a>',
+		lat: 49.987972,
+		long: 36.2203297
+	};
+
+	var locations = [
+		[kremenchuk.info, kremenchuk.lat, kremenchuk.long, 0],
+		[canada.info, canada.lat, canada.long, 1]
+	];
+
+	var map = new google.maps.Map(document.getElementById("map"), {
+		zoom: 3,
+		center: new google.maps.LatLng(46.486363, -32.061685),
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	});
+
+	var infowindow = new google.maps.InfoWindow({});
+
+	var marker, i;
+
+	for (i = 0; i < locations.length; i++) {
+		marker = new google.maps.Marker({
+			position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+			map: map
+		});
+
+		google.maps.event.addListener(
+			marker,
+			"click",
+			(function(marker, i) {
+				return function() {
+					infowindow.setContent(locations[i][0]);
+					infowindow.open(map, marker);
+				};
+			})(marker, i)
+		);
+	}
+};
