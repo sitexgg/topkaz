@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/opensans/OpenSans-Light.eot%3F') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans-Light.woff') format('woff'),
+         url('../fonts/opensans/OpenSans-Light.ttf')  format('truetype'),
+         url('../fonts/opensans/OpenSans-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/opensans/OpenSans.eot%3F') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans.woff') format('woff'),
+         url('../fonts/opensans/OpenSans.ttf')  format('truetype'),
+         url('../fonts/opensans/OpenSans.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/opensans/OpenSans-Semibold.eot%3F') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans-Semibold.woff') format('woff'),
+         url('../fonts/opensans/OpenSans-Semibold.ttf')  format('truetype'),
+         url('../fonts/opensans/OpenSans-Semibold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DinDisplayPro';
+    src: url('../fonts/dindisplaypro/PFDinDisplayPro-Thin.eot%3F') format('embedded-opentype'),
+         url('../fonts/dindisplaypro/PFDinDisplayPro-Thin.woff') format('woff'),
+         url('../fonts/dindisplaypro/PFDinDisplayPro-Thin.ttf')  format('truetype'),
+         url('../fonts/dindisplaypro/PFDinDisplayPro-Thin.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DinDisplayPro';
+    src: url('../fonts/dindisplaypro/PFDinDisplayPro-Regular.eot%3F') format('embedded-opentype'),
+         url('../fonts/dindisplaypro/PFDinDisplayPro-Regular.woff') format('woff'),
+         url('../fonts/dindisplaypro/PFDinDisplayPro-Regular.ttf')  format('truetype'),
+         url('../fonts/dindisplaypro/PFDinDisplayPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'DinDisplayPro';
+  src: url('../fonts/dindisplaypro/PFDinDisplayPro-Bold.eot%3F') format('embedded-opentype'),
+       url('../fonts/dindisplaypro/PFDinDisplayPro-Bold.woff') format('woff'),
+       url('../fonts/dindisplaypro/PFDinDisplayPro-Bold.ttf')  format('truetype'),
+       url('../fonts/dindisplaypro/PFDinDisplayPro-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('../fonts/сaviar/CaviarDreams.eot%3F') format('embedded-opentype'),
+       url('../fonts/сaviar/CaviarDreams.woff') format('woff'),
+       url('../fonts/сaviar/CaviarDreams.ttf')  format('truetype'),
+       url('../fonts/сaviar/CaviarDreams.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'AgoraSlabPro';
+    src: url('../fonts/agora_slab/agora_et.eot%3F') format('embedded-opentype'),
+         url('../fonts/agora_slab/agora_et.woff') format('woff'),
+         url('../fonts/agora_slab/agora_et.ttf')  format('truetype'),
+         url('../fonts/agora_slab/agora_et.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AgoraSlabPro';
+    src: url('../fonts/agora_slab/agora_r.eot%3F') format('embedded-opentype'),
+         url('../fonts/agora_slab/agora_r.woff') format('woff'),
+         url('../fonts/agora_slab/agora_r.ttf')  format('truetype'),
+         url('../fonts/agora_slab/agora_r.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/agora/PFAgoraSansPro-Thin.eot%3F') format('embedded-opentype'),
+         url('../fonts/agora/PFAgoraSansPro-Thin.woff') format('woff'),
+         url('../fonts/agora/PFAgoraSansPro-Thin.ttf')  format('truetype'),
+         url('../fonts/agora/PFAgoraSansPro-Thin.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/agora/PFAgoraSansPro-XThin.eot%3F') format('embedded-opentype'),
+         url('../fonts/agora/PFAgoraSansPro-XThin.woff') format('woff'),
+         url('../fonts/agora/PFAgoraSansPro-XThin.ttf')  format('truetype'),
+         url('../fonts/agora/PFAgoraSansPro-XThin.svg') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/agora/PFAgoraSansPro-Light.eot%3F') format('embedded-opentype'),
+         url('../fonts/agora/PFAgoraSansPro-Light.woff') format('woff'),
+         url('../fonts/agora/PFAgoraSansPro-Light.ttf')  format('truetype'),
+         url('../fonts/agora/PFAgoraSansPro-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/agora/PFAgoraSansPro-Regular.eot%3F') format('embedded-opentype'),
+         url('../fonts/agora/PFAgoraSansPro-Regular.woff') format('woff'),
+         url('../fonts/agora/PFAgoraSansPro-Regular.ttf')  format('truetype'),
+         url('../fonts/agora/PFAgoraSansPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'NeoSansPro';
+	src: url('../fonts/neosanspro/NeoSansPro-Regular.eot%3F') format('embedded-opentype'),
+		 url('../fonts/neosanspro/NeoSansPro-Regular.woff') format('woff'),
+		 url('../fonts/neosanspro/NeoSansPro-Regular.ttf')  format('truetype'),
+		 url('../fonts/neosanspro/NeoSansPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'NeoSansPro';
+  src: url('../fonts/neosanspro/NeoSansPro-Bold.eot%3F') format('embedded-opentype'),
+	   url('../fonts/neosanspro/NeoSansPro-Bold.woff') format('woff'),
+	   url('../fonts/neosanspro/NeoSansPro-Bold.ttf')  format('truetype'),
+	   url('../fonts/neosanspro/NeoSansPro-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Intro';
+  src: url('../fonts/intro/Intro.eot%3F') format('embedded-opentype'),
+	   url('../fonts/intro/Intro.woff') format('woff'),
+	   url('../fonts/intro/Intro.ttf')  format('truetype'),
+	   url('../fonts/intro/Intro.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/exo2/Exo2-Bold.eot%3F') format('embedded-opentype'),
+         url('../fonts/exo2/Exo2-Bold.woff') format('woff'),
+         url('../fonts/exo2/Exo2-Bold.ttf')  format('truetype'),
+         url('../fonts/exo2/Exo2-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'PFBeauSansPro';
+  src: url('../fonts/pfbeausanspro/PFBeauSansPro-Thin.eot%3F') format('embedded-opentype'),  
+  url('../fonts/pfbeausanspro/PFBeauSansPro-Thin.woff') format('woff'), 
+  url('../fonts/pfbeausanspro/PFBeauSansPro-Thin.ttf')  format('truetype'), 
+  url('../fonts/pfbeausanspro/PFBeauSansPro-Thin.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFBeauSansPro';
+  src: url('../fonts/pfbeausanspro/PFBeauSansPro-Light.eot%3F') format('embedded-opentype'),  
+	   url('../fonts/pfbeausanspro/PFBeauSansPro-Light.woff') format('woff'), 
+	   url('../fonts/pfbeausanspro/PFBeauSansPro-Light.ttf')  format('truetype'), 
+	   url('../fonts/pfbeausanspro/PFBeauSansPro-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFBeauSansPro';
+  src: url('../fonts/pfbeausanspro/PFBeauSansPro-Regular.eot%3F') format('embedded-opentype'),  
+  url('../fonts/pfbeausanspro/PFBeauSansPro-Regular.woff') format('woff'), 
+  url('../fonts/pfbeausanspro/PFBeauSansPro-Regular.ttf')  format('truetype'), 
+  url('../fonts/pfbeausanspro/PFBeauSansPro-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFBeauSansPro';
+  src: url('../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.eot%3F') format('embedded-opentype'),  
+  url('../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.woff') format('woff'), 
+  url('../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.ttf')  format('truetype'), 
+  url('../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFBeauSansPro';
+  src: url('../fonts/pfbeausanspro/PFBeauSansPro-Bold.eot%3F') format('embedded-opentype'),  
+	   url('../fonts/pfbeausanspro/PFBeauSansPro-Bold.woff') format('woff'), 
+	   url('../fonts/pfbeausanspro/PFBeauSansPro-Bold.ttf')  format('truetype'), 
+	   url('../fonts/pfbeausanspro/PFBeauSansPro-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
