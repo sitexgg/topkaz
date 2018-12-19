@@ -10,7 +10,15 @@ class MainController extends Controller {
 		$this->view->render('Home');
 	}
 
+	public function aboutAction() {
+		$this->view->render('About');
+	}
+
+	public function postAction() {
+		$this->view->render('Post');
+	}
+
 	public function contactAction() {
-		$this->view->render('Contacts');
+		$this->view->render('Contact');
 	}
 }

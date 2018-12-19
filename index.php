@@ -18,9 +18,3 @@ session_start();
 
 $router = new Router;
 $router->run();
-
-$stat = new Stat;
-
-
-
-
