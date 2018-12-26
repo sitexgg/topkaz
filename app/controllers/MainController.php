@@ -19,6 +19,10 @@ class MainController extends Controller {
 	}
 
 	public function contactAction() {
+		if(!empty($_POST))
+		{
+			$this->view->message('get', $_POST['text']);
+		}
 		$this->view->render('Contact');
 	}
 }

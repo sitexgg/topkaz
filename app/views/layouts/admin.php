@@ -20,17 +20,17 @@
           
     </head>
     <body>
-        
+        <?php if($this->route['action'] != 'login'): ?>
         <main id="main" class="all_content">
             
             <header id="header">
               
             </header>
                 
-    
+            <h1>Admin</h1>
 
             <footer id="footer">
               
             </footer>
-
+        <?php endif;?>
     
